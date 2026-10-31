@@ -17,7 +17,7 @@ const Y = (t) => ({ type: "c", t, o: ["Ya", "Tidak"] });
 
 def("Z", "Persetujuan", [C("Saya bersedia mengisi angket ini.", ["Ya", "Tidak"])]);
 def("A", "Identitas (tanpa nama)", [
-  C("Jenis organisasi yang paling aktif kamu ikuti.", ["UKM", "HIMA", "BEM", "DPK", "Organisasi lain"]),
+  C("Jenis organisasi yang paling aktif kamu ikuti.", ["UKM", "HMP", "BEM", "ORMEK", "Organisasi lain"]),
   { type: "t", t: "Fakultas / program studi", opt: true },
   C("Posisi kamu sekarang.", ["Ketua atau wakil ketua", "Sekretaris atau bendahara", "Koordinator atau ketua divisi", "Anggota"]),
   C("Lama berorganisasi di kampus.", ["Kurang dari 1 tahun", "1 sampai 2 tahun", "Lebih dari 2 tahun"]),
